@@ -22,15 +22,18 @@ var arr = [1,2,3,4,5,6,7,8,9];
 
 // creare un  ciclo che si ferma alla variabile piu grande 
 for(var i = 0; i < b; i++){
-
+    // creare un array 
     var arrNum  = [];
 
-    if (arr.length === a) {}
-
-
-    arrNum.push(arr.length === a);
-    arrNum.push(arr.length === b);
-
+    // se la lunghezza dell array e uguale al numero di a aggiungere il numero dell array nell arrNum
+    if (arr.length === a ) {
+        arrNum.push(arr.length === a);
+    }
+    // se la lunghezza dell array e uguale al numero di b aggiungere il numero dell array nell arrNum
+    if (arr.length === b ) {
+        arrNum.push(arr.length === b);
+    }
+    
 }
 
 console.log(arrNum );
